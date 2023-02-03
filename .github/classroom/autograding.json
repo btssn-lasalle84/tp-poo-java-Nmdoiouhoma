@@ -1,0 +1,164 @@
+{
+  "tests": [
+    {
+      "name": "TestHelloWorld",
+      "setup": "",
+      "run": "cd sequence1 && gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestFizzBuzz",
+      "setup": "",
+      "run": "cd sequence2a && gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TestTableauCarre",
+      "setup": "",
+      "run": "cd sequence2b && gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TestInverse",
+      "setup": "",
+      "run": "cd sequence3a && gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TestPalyndrome1",
+      "setup": "",
+      "run": "cd sequence3b && gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TestPalyndrome2",
+      "setup": "",
+      "run": "cd sequence3b && make",
+      "input": "papa\nlol\n0\n",
+      "output": "papa : false(\n|.)*lol : true(\n|.)*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TestCarre",
+      "setup": "",
+      "run": "cd sequence4a && gradle test --tests TestCarre",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestRectangle",
+      "setup": "",
+      "run": "cd sequence4a && gradle test --tests TestRectangle",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestCercle",
+      "setup": "",
+      "run": "cd sequence4a && gradle test --tests TestCercle",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestCube",
+      "setup": "",
+      "run": "cd sequence4a && gradle test --tests TestCube",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "TestParallelepipede",
+      "setup": "",
+      "run": "cd sequence4a && gradle test --tests TestParallelepipede",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.5
+    },
+    {
+      "name": "TestSphere",
+      "setup": "",
+      "run": "cd sequence4a && gradle test --tests TestSphere",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.5
+    },
+    {
+      "name": "TestCarre",
+      "setup": "",
+      "run": "cd sequence4b && gradle test --tests TestCarre",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.5
+    },
+    {
+      "name": "TestCube",
+      "setup": "",
+      "run": "cd sequence4b && gradle test --tests TestCube",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.5
+    },
+    {
+      "name": "TestInterface",
+      "setup": "",
+      "run": "cd sequence4c && gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "TestJar",
+      "setup": "",
+      "run": "cd sequence5 && make jar > /dev/null 2>&1 && test -s build/figures.jar && file build/figures.jar",
+      "input": "",
+      "output": "build/figures.jar: Java archive data (JAR)",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
